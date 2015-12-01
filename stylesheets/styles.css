@@ -256,16 +256,6 @@ footer {
     margin:0;
   }
   
-  #musicinfo {
-    display: none;
-}
-#something {
-  display: none;
-}
-
-#something:target {
-  display: block;
-}
 
   header, section, footer {
     float:none;
@@ -333,4 +323,14 @@ footer {
     font-size:12pt;
     color:#444;
   }
+   #musicinfo {
+    display: none;
+}
+#something {
+  display: none;
+}
+
+#something:target {
+  display: block;
+}
 }
