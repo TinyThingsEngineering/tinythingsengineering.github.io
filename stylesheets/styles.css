@@ -239,16 +239,7 @@ hr {
   height:1px;
   margin:0 0 20px;
 }
-#musicinfo {
-    display: none;
-}
-#something {
-  display: none;
-}
 
-#something:target {
-  display: block;
-}
 
 footer {
   width:270px;
@@ -264,6 +255,17 @@ footer {
     width:auto;
     margin:0;
   }
+  
+  #musicinfo {
+    display: none;
+}
+#something {
+  display: none;
+}
+
+#something:target {
+  display: block;
+}
 
   header, section, footer {
     float:none;
