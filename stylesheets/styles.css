@@ -239,7 +239,9 @@ hr {
   height:1px;
   margin:0 0 20px;
 }
-
+#musicinfo {
+    display: none;
+}
 #something {
   display: none;
 }
