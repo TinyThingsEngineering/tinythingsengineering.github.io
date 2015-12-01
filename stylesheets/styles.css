@@ -1,3 +1,14 @@
+#musicinfo {
+    display: none;
+}
+#something {
+  display: none;
+}
+
+#something:target {
+  display: block;
+}
+
 @font-face {
   font-family: 'Noto Sans';
   font-weight: 400;
@@ -323,14 +334,5 @@ footer {
     font-size:12pt;
     color:#444;
   }
-   #musicinfo {
-    display: none;
-}
-#something {
-  display: none;
-}
-
-#something:target {
-  display: block;
-}
+   
 }
