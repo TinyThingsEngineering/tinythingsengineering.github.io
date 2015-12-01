@@ -15,3 +15,10 @@ function gestureStart() {
     }
   }
 }
+
+ $(document).ready(
+    function() {
+        $("#music").click(function() {
+            $("#musicinfo").fadeToggle();
+        });
+    });
